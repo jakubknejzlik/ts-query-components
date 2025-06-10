@@ -1,0 +1,38 @@
+{
+  "name": "ts-query-components",
+  "version": "1.0.0",
+  "description": "UI components based on ts-query datasource",
+  "main": "index.js",
+  "devDependencies": {
+    "@chromatic-com/storybook": "^4.0.0",
+    "@jakub.knejzlik/ts-query": "^0.10.3",
+    "@storybook/addon-a11y": "^9.0.6",
+    "@storybook/addon-docs": "^9.0.6",
+    "@storybook/addon-onboarding": "^9.0.6",
+    "@storybook/addon-vitest": "^9.0.6",
+    "@storybook/react-vite": "^9.0.6",
+    "@tanstack/eslint-plugin-query": "^5.78.0",
+    "@tanstack/react-query-devtools": "^5.80.6",
+    "@vitest/browser": "^3.2.2",
+    "@vitest/coverage-v8": "^3.2.2",
+    "playwright": "^1.52.0",
+    "prop-types": "^15.8.1",
+    "storybook": "^9.0.6",
+    "vitest": "^3.2.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "keywords": [],
+  "author": "Jakub Knejzlik",
+  "license": "ISC",
+  "dependencies": {
+    "@tanstack/react-query": "^5.80.6",
+    "antd": "^5.25.4",
+    "dayjs": "^1.11.13",
+    "numeral": "^2.0.6",
+    "sql.js": "^1.13.0"
+  }
+}
