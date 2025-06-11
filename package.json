@@ -18,6 +18,7 @@
     "playwright": "^1.52.0",
     "prop-types": "^15.8.1",
     "storybook": "^9.0.6",
+    "storybook-addon-code-editor": "^5.0.0",
     "vitest": "^3.2.2"
   },
   "scripts": {
@@ -30,6 +31,7 @@
   "license": "ISC",
   "dependencies": {
     "@tanstack/react-query": "^5.80.6",
+    "@uidotdev/usehooks": "^2.4.1",
     "antd": "^5.25.4",
     "dayjs": "^1.11.13",
     "numeral": "^2.0.6",
